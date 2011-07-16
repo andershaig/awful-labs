@@ -1,0 +1,240 @@
+/* ----------------------------
+Author: Anders Haig = minim.co
+Version: 1.2
+File: CSS Styles
+---------------------------- */
+
+/* ----------------------------
+		 CSS Reset 
+---------------------------- */
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+/* GLOBAL */
+html { 
+	font-size: 62.5%;
+} 
+
+body {
+	font-size: 14px; 
+	font-size: 1.4rem;
+	color:#FFF;
+	background:url('../img/bg.png') 0 0 repeat;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 { 
+	font-size: 24px; 
+	font-size: 2.4rem; 
+}
+
+.clear {
+	clear:both;
+	display:block;
+}
+
+/* STANDARD */
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+header {
+	padding-top:40px;
+}
+
+#branding {
+	float:left;
+	width:300px;
+}
+
+#tagline {
+	float:left;
+	width:660px;
+	line-height:70px;
+}
+
+#content {
+	margin-top:40px;
+}
+
+.col {
+	width:225px;
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.col:nth-child(4n) {
+	margin-right:0;
+}
+
+.icon {
+	width:225px;
+	height:225px;
+	position:relative;
+	-webkit-border-radius: 112.5px;
+	   -moz-border-radius: 112.5px;
+			border-radius: 112.5px;
+	
+	-webkit-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.75),
+		inset 0 20px 40px 0 rgba(0,0,0,0.60),
+		0 0 10px 0 rgba(255,255,255,0.15);
+	-moz-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.75),
+		inset 0 20px 40px 0 rgba(0,0,0,0.60),
+		 0 0 10px 0 rgba(255,255,255,0.15);
+	box-shadow:
+		inset 0 0 110px 0 rgba(0,0,0,0.75),
+		inset 0 20px 40px 0 rgba(0,0,0,0.60),
+		0 0 10px 0 rgba(255,255,255,0.15);
+}
+
+.next-icon {
+	width:225px;
+	height:225px;
+	position:relative;
+	-webkit-border-radius: 112.5px;
+	   -moz-border-radius: 112.5px;
+			border-radius: 112.5px;
+	border:1px solid rgba(255,255,255,0.1);
+	
+	-webkit-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.35),
+		inset 0 20px 40px 0 rgba(0,0,0,0.30),
+		0 0 10px 0 rgba(255,255,255,0.05);
+	-moz-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.35),
+		inset 0 20px 40px 0 rgba(0,0,0,0.30),
+		0 0 10px 0 rgba(255,255,255,0.5);
+	box-shadow:
+		inset 0 0 110px 0 rgba(0,0,0,0.35),
+		inset 0 20px 40px 0 rgba(0,0,0,0.30),
+		0 0 10px 0 rgba(255,255,255,0.05);
+}
+
+.on-deck-icon {
+	width:225px;
+	height:225px;
+	position:relative;
+	-webkit-border-radius: 112.5px;
+	   -moz-border-radius: 112.5px;
+			border-radius: 112.5px;
+	border:1px solid rgba(255,255,255,0.15);
+	
+	-webkit-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.15),
+		inset 0 20px 40px 0 rgba(0,0,0,0.15),
+		0 0 10px 0 rgba(255,255,255,0);
+	-moz-box-shadow: 
+		inset 0 0 110px 0 rgba(0,0,0,0.15),
+		inset 0 20px 40px 0 rgba(0,0,0,0.15),
+		0 0 10px 0 rgba(255,255,255,0);
+	box-shadow:
+		inset 0 0 110px 0 rgba(0,0,0,0.15),
+		inset 0 20px 40px 0 rgba(0,0,0,0.15),
+		0 0 10px 0 rgba(255,255,255,0);
+}
+
+.countdown {
+	line-height:225px;
+	text-align:center;
+	color:rgba(255,255,255,0.4);
+}
+
+.future-icon {
+	width:225px;
+	height:225px;
+	position:relative;
+	-webkit-border-radius: 112.5px;
+	   -moz-border-radius: 112.5px;
+			border-radius: 112.5px;
+	border:1px solid rgba(255,255,255,0.2);
+}
+
+.last-icon {
+	width:225px;
+	height:225px;
+	position:relative;
+	-webkit-border-radius: 112.5px;
+	   -moz-border-radius: 112.5px;
+			border-radius: 112.5px;
+}
+
+.last-icon a {
+	line-height:225px;
+	text-align:center;
+	color:rgba(255,255,255,0.2);
+	text-decoration:none;
+	display:block;
+}
+
+.last-icon a:hover {
+	color:rgba(255,255,255,0.5);
+}
+
+.icon img {
+	opacity:0.5;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-62.5px;
+	margin-left:-62.5px;
+}
+
+.icon img:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+.title {
+	text-align:center;
+	font-size:18px;
+	font-size:1.8rem;
+	line-height:30px;
+	line-height:3.0rem;
+	margin:10px 0;
+	font-style:italic;
+	font-weight:normal;
+}
+
+.future-title {
+	display:none;
+}
+
+footer {
+	margin-top:80px;
+	font-style:italic;
+	text-align:center;
+	color:rgba(255,255,255,0.2);
+}
