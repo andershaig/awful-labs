@@ -1,0 +1,141 @@
+body { 
+	background:rgb(51, 51, 51) url('../img/bg.png') 0 0 repeat; 
+	font-family:'Helvetica', 'Arial', sans-serif; 
+	font-size:12px; 
+	overflow:hidden; 
+}
+
+#plane {
+	position:absolute;
+	width:100%;
+	height:600px;
+	left:0;
+	right:0;
+	top:50%;
+	margin-top:-300px;
+	background:transparent url('../img/plane.png') 0 350px repeat-x;
+}
+
+#container { 
+	width:600px;
+	height:600px;
+	top:50%; 
+	left:50%; 
+	margin-left:-300px;
+	margin-top:-300px;
+	color:#FFF;
+	text-shadow:0 1px 3px rgba(0, 0, 0, 0.34); 
+	position:absolute; 
+}
+
+.material {
+	margin-bottom:40px;
+}
+
+#sphere {
+	margin:0 100px;
+	width:400px;
+	height:400px;
+	-webkit-border-radius: 200px;
+	   -moz-border-radius: 200px;
+			border-radius: 200px;
+	position:relative;
+	z-index:10;
+}
+
+.default {
+	background:#FFF;
+}
+
+#noise-layer {
+	width:400px;
+	height:400px;
+	-webkit-border-radius: 200px;
+	   -moz-border-radius: 200px;
+			border-radius: 200px;
+	position:absolute;
+	z-index:15;
+}
+
+#texture-layer {
+	width:400px;
+	height:400px;
+	-webkit-border-radius: 200px;
+	   -moz-border-radius: 200px;
+			border-radius: 200px;
+	position:absolute;
+	z-index:20;
+}
+
+#reflection-layer {
+	width:400px;
+	height:400px;
+	-webkit-border-radius: 200px;
+	   -moz-border-radius: 200px;
+			border-radius: 200px;
+	position:absolute;
+	z-index:25;
+}
+
+#shadow {
+	height:100px;
+	width:600px;
+	z-index:5;
+}
+
+#main-shadow {
+	height:300px;
+	width:600px;
+	position:relative;
+	top:-100px;
+	left:80px;
+}
+
+#info {
+	text-align:center;
+}
+
+#info a {
+	text-decoration:none;
+	font-size:36px;
+	font-style:italic;
+	font-weight:bold;
+	cursor:pointer;
+	display:inline-block;
+	padding:0 5px;
+	margin:0 5px;
+	color:rgba(255,255,255,0.85);
+	text-shadow: 3px 3px 0 rgba(0,0,0,0.95);
+	opacity:0.75;
+}
+
+#info a:hover {
+	opacity:1;
+}
+
+#controls {
+	text-align:center;
+}
+
+#controls a {
+	text-decoration:none;
+	display:inline-block;
+	margin:0 5px;
+	padding:0 15px;
+	width:110px;
+	height:30px;
+	line-height:30px;
+	color:#FFF;
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+			border-radius: 15px;
+	background:rgba(255,255,255,0.1);
+	border:1px solid rgba(0,0,0,0.75);
+	-webkit-box-shadow:2px 2px 3px 0 rgba(0,0,0,0.5);
+	   -moz-box-shadow:2px 2px 3px 0 rgba(0,0,0,0.5);
+			box-shadow:2px 2px 3px 0 rgba(0,0,0,0.5);
+}
+
+#controls a:hover {
+	background:rgba(0,0,0,0.5);
+}

@@ -1,0 +1,137 @@
+/*---------------------------------------------
+---------------- COLOR STYLES -----------------
+---------------------------------------------*/
+.red {
+	background: #a90329;
+	background: -moz-linear-gradient(-45deg, #a90329 0%, #8f0222 44%, #5b0013 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#5b0013));
+	background: -webkit-linear-gradient(-45deg, #a90329 0%,#8f0222 44%,#5b0013 100%);
+	background: -o-linear-gradient(-45deg, #a90329 0%,#8f0222 44%,#5b0013 100%);
+	background: -ms-linear-gradient(-45deg, #a90329 0%,#8f0222 44%,#5b0013 100%);
+	background: linear-gradient(-45deg, #a90329 0%,#8f0222 44%,#5b0013 100%);
+	/* ################ Older IE isn't supported because I hate it. ############### */
+	
+	-webkit-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+	   -moz-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+			box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+}
+
+.grey {
+	background: #c4c4c4;
+	background: -moz-linear-gradient(-45deg, #d4d4d4 0%, #c4c4c4 44%, #b2b2b2 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#d4d4d4), color-stop(44%,#c4c4c4), color-stop(100%,#b2b2b2));
+	background: -webkit-linear-gradient(-45deg, #d4d4d4 0%,#c4c4c4 44%,#b2b2b2 100%);
+	background: -o-linear-gradient(-45deg, #d4d4d4 0%,#c4c4c4 44%,#b2b2b2 100%);
+	background: linear-gradient(-45deg, #d4d4d4 0%,#c4c4c4 44%,#b2b2b2 100%);
+	/* ################ Older IE isn't supported because I hate it. ############### */
+	
+	-webkit-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+	   -moz-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+			box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.1),
+						inset 15px 15px 40px 0 rgba(255,255,255,0.1),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.5),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.25),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.25),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.25);
+}
+
+/*---------------------------------------------
+-------------- MATERIAL STYLES ----------------
+---------------------------------------------*/
+
+/* ~~~~~ Red Suede ~~~~~ */
+.suede {
+	
+}
+
+.suede #noise-layer {
+	
+}
+
+.suede #texture-layer {
+	background:url('../img/texture/suede.png') 0 0 no-repeat;
+	opacity:0.75;
+}
+
+.suede #reflection-layer {
+	
+}
+
+/* ~~~~~ Red Plastic ~~~~~ */
+.plastic {
+
+}
+
+.plastic #noise-layer {
+	
+}
+
+.plastic #texture-layer {
+	
+}
+
+.plastic #reflection-layer {
+	
+}
+
+/* ~~~~~ Stone ~~~~~ */
+.stone {
+
+}
+
+.stone #noise-layer {
+	background:url('../img/noise/stone.gif') 0 0 repeat;
+	opacity:0.5;
+}
+
+.stone #texture-layer {
+	background:url('../img/texture/stone.png') 0 0 repeat;
+	opacity:1;
+	-webkit-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.15),
+						inset 15px 15px 40px 0 rgba(0,0,0,0.15),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.25),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.15),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.15),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.15);
+	   -moz-box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.15),
+						inset 15px 15px 40px 0 rgba(0,0,0,0.15),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.25),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.15),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.15),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.15);
+			box-shadow: inset 50px 50px 50px 0 rgba(255,255,255,0.15),
+						inset 15px 15px 40px 0 rgba(0,0,0,0.15),
+	   					inset -150px -150px 150px 0 rgba(0,0,0,0.25),
+	   					inset -100px -100px 100px 0 rgba(0,0,0,0.15),
+	   					inset -50px -50px 50px 0 rgba(0,0,0,0.15),
+	   					inset -25px -25px 40px 0 rgba(0,0,0,0.15);
+}
+
+.stone #reflection-layer {
+	
+}
