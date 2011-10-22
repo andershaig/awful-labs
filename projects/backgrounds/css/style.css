@@ -1,0 +1,175 @@
+/* ----------------------------
+Author: Anders Haig = minim.co
+Version: 1.3
+---------------------------- */
+
+/* ----------------------------
+		 CSS Reset 
+---------------------------- */
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+/* GLOBAL */
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Copse);
+
+html { font-size: 62.5%; } 
+
+body {
+	font-size: 14px; 
+	font-size: 1.4rem;
+	background:#D1D8DB;
+}
+
+/* STANDARD */
+
+#wrapper {
+	width:500px;
+	margin:0 auto;
+}
+
+#wrapper h1 {
+	margin:100px 0 50px;
+	text-align:center;
+	color:#222;
+	font-size: 48px; 
+	font-size: 4.8rem;
+	font-family: 'Pacifico', Helvetica, Arial, sans-serif;
+}
+
+.all_boxes {
+	display:block;
+	height:125px;
+	margin:0 0 50px;
+	-webkit-border-radius: 7px;
+	   -moz-border-radius: 7px;
+			border-radius: 7px;
+}
+
+.light {
+	-webkit-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15), 
+						inset 1px 1px 1px 1px rgba(255, 255, 255, 0.75);
+	   -moz-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15), 
+						inset 1px 1px 1px 1px rgba(255, 255, 255, 0.75);
+			box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15), 
+						inset 1px 1px 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+.dark  {
+	-webkit-box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.35);
+	   -moz-box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.35);
+			box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.all_boxes h3 {
+	text-align:center;
+	line-height:125px;
+	font-size: 28px; 
+	font-size: 2.8rem;
+	font-family: 'Copse', Helvetica, Arial, sans-serif;
+}
+
+.light h3 {
+	color:rgba(0,0,0,0.75);
+}
+
+.dark h3 {
+	color:rgba(255,255,255,0.75);
+}
+
+#box_1 {
+	background:url(../img/box_1.png) 0 0 repeat;
+}
+
+#box_2 {
+	background:url(../img/box_2.png) 0 0 repeat;
+}
+
+#box_3 {
+	background:url(../img/box_3.gif) 0 0 repeat;
+}
+
+#box_4 {
+	background:url(../img/box_4.png) 0 0 repeat;
+}
+
+#box_5 {
+	background:url(../img/box_5.gif) 0 0 repeat;
+}
+
+#box_6 {
+	background:url(../img/box_6.png) 0 0 repeat;
+}
+
+#box_7 {
+	background:url(../img/box_7.png) 0 0 repeat;
+}
+
+#box_8 {
+	background:url(../img/box_8.gif) 0 0 repeat;
+}
+
+#box_9 {
+	background:url(../img/box_9.png) 0 0 repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

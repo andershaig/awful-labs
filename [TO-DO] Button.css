@@ -1,0 +1,32 @@
+Buttons CSS:
+
+input[type=submit], button, a.button {
+	width:80px;
+	height:30px;
+	line-height:29px;
+	padding:0 10px;
+	text-align:center;
+	margin:0 110px;
+	font-size:13px;
+	font-size:1.3rem;
+	font-weight:bold;
+	color:#437182;
+	text-shadow: 0 1px 0 #FFF;
+	cursor:pointer;
+	display:block;
+	
+	background:#D7EFF5;
+	background: -moz-linear-gradient(top, #F3FBFC 0%, #D1EDF4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3FBFC), color-stop(100%,#D1EDF4));
+	background: -webkit-linear-gradient(top, #F3FBFC 0%,#D1EDF4 100%);
+	background: -o-linear-gradient(top, #F3FBFC 0%,#D1EDF4 100%);
+	background: -ms-linear-gradient(top, #F3FBFC 0%,#D1EDF4 100%);
+	background: linear-gradient(top, #F3FBFC 0%,#D1EDF4 100%);
+	border:1px solid #9FBAC0;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 2px 0 rgba(255, 255, 255, 1);
+	   -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 2px 0 rgba(255, 255, 255, 1);
+			box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 2px 0 rgba(255, 255, 255, 1);
+}
