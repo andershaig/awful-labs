@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title><%= "#{@title} &mdash; " if @title %>Awful Labs</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+    
+    <!-- HTML 5 Shim Needed -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+	<script src="/js/cssua.min.js" type="text/javascript"></script>
+	<script src="/js/app.js" type="text/javascript"></script>
+</head>
+
+<body>
+<%= partial :awful_bar %>
+
+<% if flash[:notice] %>
+  <div class="flash"><%= flash[:notice] %></div>
+<% end %>
+
+<%= yield %>
+
+<%= partial :footer %>
+</body>
+</html>
