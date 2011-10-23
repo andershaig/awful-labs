@@ -50,12 +50,15 @@ body {
 	color:#FFF;
 	background:url('../img/bg.png') 0 0 repeat;
 	font-family: Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .clear {
 	clear:both;
 	display:block;
 }
+
+/* ### START AWFUL_BAR ### */
 
 @font-face {
     font-family: 'Bjorn';
@@ -67,8 +70,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
-/* STANDARD */
 
 #awful_bar {
 	width:100%;
@@ -95,6 +96,8 @@ header {
 #branding h1 {
 	font-size:48px;
 	font-size:4.8rem;
+	font-weight:normal;
+	-webkit-font-smoothing: antialiased;
 }
 
 #tagline {
@@ -103,7 +106,12 @@ header {
 	text-align:right;
 	line-height:33px;
 	text-shadow:0 1px 1px rgba(0,0,0,0.9);
+	-webkit-font-smoothing: antialiased;
 }
+
+/* ### END AWFUL_BAR ### */
+
+/* STANDARD */
 
 #wrapper {
 	width:960px;
@@ -251,7 +259,9 @@ header {
 	line-height:3.0rem;
 	margin:10px 0;
 	font-style:italic;
-	font-weight:normal;
+	font-weight:bold;
+	color:#DDD;
+	text-shadow:0 1px 1px rgba(0,0,0,0.9);
 }
 
 .future-title {
