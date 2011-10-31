@@ -24,10 +24,12 @@ get '/' do
 end
 
 get '/projects/css3d' do
+  @title = 'CSS3D'
   erb :project_css3d
 end
 
 get '/projects/lens' do
+  @title = 'Camera Lens'
   erb :project_lens
 end
 

@@ -58,6 +58,14 @@ body {
 	display:block;
 }
 
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
 /* ### START AWFUL_BAR ### */
 
 @font-face {
@@ -141,140 +149,112 @@ header {
 	margin-right:0;
 }
 
-.icon {
-	width:225px;
-	height:225px;
+.project {
 	position:relative;
-	-webkit-border-radius: 112.5px;
-	   -moz-border-radius: 112.5px;
-			border-radius: 112.5px;
-	
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+	width:225px;
+	height:260px;
+	border:1px solid rgba(0,0,0,0.5);
+	background:#058C85;
 	-webkit-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.75),
-		inset 0 20px 40px 0 rgba(0,0,0,0.60),
-		0 0 10px 0 rgba(255,255,255,0.15);
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		2px 2px 6px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
 	-moz-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.75),
-		inset 0 20px 40px 0 rgba(0,0,0,0.60),
-		 0 0 10px 0 rgba(255,255,255,0.15);
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		2px 2px 6px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
 	box-shadow:
-		inset 0 0 110px 0 rgba(0,0,0,0.75),
-		inset 0 20px 40px 0 rgba(0,0,0,0.60),
-		0 0 10px 0 rgba(255,255,255,0.15);
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		2px 2px 6px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
 }
 
-.next-icon {
-	width:225px;
-	height:225px;
+.project-url {
 	position:relative;
-	-webkit-border-radius: 112.5px;
-	   -moz-border-radius: 112.5px;
-			border-radius: 112.5px;
-	border:1px solid rgba(255,255,255,0.1);
-	
-	-webkit-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.35),
-		inset 0 20px 40px 0 rgba(0,0,0,0.30),
-		0 0 10px 0 rgba(255,255,255,0.05);
-	-moz-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.35),
-		inset 0 20px 40px 0 rgba(0,0,0,0.30),
-		0 0 10px 0 rgba(255,255,255,0.5);
-	box-shadow:
-		inset 0 0 110px 0 rgba(0,0,0,0.35),
-		inset 0 20px 40px 0 rgba(0,0,0,0.30),
-		0 0 10px 0 rgba(255,255,255,0.05);
-}
-
-.on-deck-icon {
-	width:225px;
-	height:225px;
-	position:relative;
-	-webkit-border-radius: 112.5px;
-	   -moz-border-radius: 112.5px;
-			border-radius: 112.5px;
-	border:1px solid rgba(255,255,255,0.15);
-	
-	-webkit-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.15),
-		inset 0 20px 40px 0 rgba(0,0,0,0.15),
-		0 0 10px 0 rgba(255,255,255,0);
-	-moz-box-shadow: 
-		inset 0 0 110px 0 rgba(0,0,0,0.15),
-		inset 0 20px 40px 0 rgba(0,0,0,0.15),
-		0 0 10px 0 rgba(255,255,255,0);
-	box-shadow:
-		inset 0 0 110px 0 rgba(0,0,0,0.15),
-		inset 0 20px 40px 0 rgba(0,0,0,0.15),
-		0 0 10px 0 rgba(255,255,255,0);
-}
-
-.countdown {
-	line-height:225px;
-	text-align:center;
-	color:rgba(255,255,255,0.4);
-}
-
-.future-icon {
-	width:225px;
-	height:225px;
-	position:relative;
-	-webkit-border-radius: 112.5px;
-	   -moz-border-radius: 112.5px;
-			border-radius: 112.5px;
-	border:1px solid rgba(255,255,255,0.2);
-}
-
-.last-icon {
-	width:225px;
-	height:225px;
-	position:relative;
-	-webkit-border-radius: 112.5px;
-	   -moz-border-radius: 112.5px;
-			border-radius: 112.5px;
-}
-
-.last-icon a {
-	line-height:225px;
-	text-align:center;
-	color:rgba(255,255,255,0.2);
-	text-decoration:none;
 	display:block;
 }
 
-.last-icon a:hover {
-	color:rgba(255,255,255,0.5);
+.project-url:hover {
+	bottom:3px;
+	padding-bottom:3px;
 }
 
-.icon img {
-	opacity:0.5;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-top:-62.5px;
-	margin-left:-62.5px;
+.project-url:hover > .project {
+	background:#06ADA4;
+	-webkit-box-shadow: 
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		4px 4px 8px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
+	-moz-box-shadow: 
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		4px 4px 8px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
+	box-shadow:
+		inset -5px -5px 10px 0 rgba(0,0,0,0.3),
+		4px 4px 8px 0 rgba(0,0,0,0.3),
+		inset 1px 1px 3px 0 rgba(255,255,255,0.3);
 }
 
-.icon img:hover {
-	opacity:1;
-	cursor:pointer;
-}
-
-.title {
+.project h3 {
 	text-align:center;
 	font-size:18px;
 	font-size:1.8rem;
 	line-height:30px;
 	line-height:3.0rem;
 	margin:10px 0;
-	font-style:italic;
 	font-weight:bold;
 	color:#DDD;
+	text-decoration:none;
 	text-shadow:0 1px 1px rgba(0,0,0,0.9);
 }
 
-.future-title {
-	display:none;
+.empty-project {
+	width:225px;
+	height:260px;
+	position:relative;
+	background:rgba(255,255,255,0.05);
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+	border:1px dashed rgba(0,0,0,0.5);
+}
+
+.empty-project h5 {
+	font-size:16px;
+	font-size:1.6rem;
+	line-height:20px;
+	height:20px;
+	padding:120px 0;
+	font-style:italic;
+	text-align:center;
+	color:rgba(0,0,0,0.5);
+	text-shadow:1px 1px 0 rgba(255,255,255,0.1);
+}
+
+.icon {
+	width:175px;
+	height:175px;
+	position:relative;
+	margin:20px;
+	background:#093F3D;
+	-webkit-border-radius: 88px;
+	   -moz-border-radius: 88px;
+			border-radius: 88px;
+	-webkit-box-shadow: 
+		inset 0 0 88px 0 rgba(0,0,0,0.65),
+		inset 0 20px 40px 0 rgba(0,0,0,0.4),
+		1px 1px 3px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow: 
+		inset 0 0 88px 0 rgba(0,0,0,0.65),
+		inset 0 20px 40px 0 rgba(0,0,0,0.4),
+		1px 1px 3px 0 rgba(255,255,255,0.4);
+	box-shadow:
+		inset 0 0 88px 0 rgba(0,0,0,0.65),
+		inset 0 20px 40px 0 rgba(0,0,0,0.4),
+		1px 1px 3px 0 rgba(255,255,255,0.4);
 }
 
 footer {
