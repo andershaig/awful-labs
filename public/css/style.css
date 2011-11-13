@@ -66,6 +66,17 @@ a:hover {
 	text-decoration:none;
 }
 
+::selection {
+	text-shadow:none;
+	background:#333;
+	color:#DDD;
+}
+::-moz-selection {
+	text-shadow:none;
+	background:#333;
+	color:#DDD;
+}
+
 /* ### START AWFUL_BAR ### */
 
 @font-face {
@@ -133,6 +144,7 @@ header {
 #wrapper {
 	width:960px;
 	margin:0 auto;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #content {
@@ -285,3 +297,96 @@ footer {
 	text-align:center;
 	color:rgba(255,255,255,0.2);
 }
+
+/* PROJECT STYLES */
+
+/* Info Icon */
+#info {
+	background:url(../img/info.png) 0 0 no-repeat;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	width:24px;
+	height:24px;
+	overflow:hidden;
+	-khtml-opacity: 0.5;
+	  -moz-opacity: 0.5;
+		   opacity: 0.5;
+	cursor:pointer;
+}
+#info:hover {
+	-khtml-opacity: 0.8;
+	  -moz-opacity: 0.8;
+		   opacity: 0.8;
+}
+
+#project-info {
+	display:none;
+	width:560px;
+	padding:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+	/*
+	border:1px solid rgba(255,255,255,0.15);
+	-webkit-box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.5);
+	   -moz-box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.5);
+			box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.5);
+	*/		
+
+	background: #F5F6F6;
+	background: -moz-linear-gradient(top, #F5F6F6 0%, #D0D0D1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F6F6), color-stop(100%,#D0D0D1));
+	background: -webkit-linear-gradient(top, #F5F6F6 0%,#D0D0D1 100%);
+	background: -o-linear-gradient(top, #F5F6F6 0%,#D0D0D1 100%);
+	background: -ms-linear-gradient(top, #F5F6F6 0%,#D0D0D1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F6F6', endColorstr='#D0D0D1',GradientType=0 );
+	background: linear-gradient(top, #F5F6F6 0%,#D0D0D1 100%);
+
+	-webkit-box-shadow: 3px 3px 9px 0 rgba(0,0,0,0.5), 
+						inset 0 0 1px 0 rgba(255,255,255,1);
+	   -moz-box-shadow: 3px 3px 9px 0 rgba(0,0,0,0.5), 
+	   					inset 0 0 1px 0 rgba(255,255,255,1);
+			box-shadow: 3px 3px 9px 0 rgba(0,0,0,0.5), 
+						inset 0 0 1px 0 rgba(255,255,255,1);
+	font-size:15px;
+	font-size:1.5rem;
+	color:#393939;
+	text-shadow:0 1px 0 rgba(255,255,255,0.4);
+}
+
+#project-info h3 {
+	
+}
+
+#project-info p {
+	
+}
+
+#close-info {
+	text-decoration:none;
+	cursor:pointer;
+	position:absolute;
+	right:20px;
+	top:20px;
+	height:16px;
+	width:16px;
+	display:block;
+	background:url(../img/close.png) center center no-repeat;
+	-khtml-opacity: 0.5;
+	  -moz-opacity: 0.5;
+		   opacity: 0.5;
+}
+
+#close-info:hover {
+	-khtml-opacity: 0.8;
+	  -moz-opacity: 0.8;
+		   opacity: 0.8;
+}
+
+
+
