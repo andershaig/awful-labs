@@ -48,7 +48,7 @@ body {
 	font-size: 14px; 
 	font-size: 1.4rem;
 	color:#FFF;
-	background:url('../img/bg.png') 0 0 repeat;
+	background:#3D3D3D url('../img/bg.png') 0 0 repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -198,12 +198,13 @@ header {
 			border-radius: 6px;
 	background:rgba(0,0,0,0.35);
 }
-
+/*
 .project-url:hover > .project {
 	-webkit-box-shadow: 0 0 25px 0 rgba(5,140,133,0.75);
 	   -moz-box-shadow: 0 0 25px 0 rgba(5,140,133,0.75);
 			box-shadow: 0 0 25px 0 rgba(5,140,133,0.75);
 }
+*/
 
 .project-url {
 	position:relative;
