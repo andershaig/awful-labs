@@ -8,20 +8,22 @@ $(document).ready( function () {
 	$('#awful_bar').html(awful_bar);
 
 	// Ability to Change Background color
-	var awful_picker =  '<div id="awful_tools">';
-		awful_picker += '<div class="awful_tool">Background <input type="text" id="color_selection" placeholder="#F4F4F4" /></div>';
-		awful_picker += '</div>';
+	if ($('body').attr('data-tools') === 'true') {
+		var awful_picker =  '<div id="awful_tools">';
+			awful_picker += '<div class="awful_tool">Background <input type="text" id="color_selection" placeholder="#F4F4F4" /></div>';
+			awful_picker += '</div>';
 
-	$('body').append(awful_picker);
+		$('body').append(awful_picker);
 
-	$('#color_selection').on('keyup', function () {
-		var input = $(this).val();
+		$('#color_selection').on('keyup', function () {
+			var input = $(this).val();
 
-		// Add regex to check for Hex or RGB
+			// Add regex to check for Hex or RGB
 
-		$('body').css({
-			'background-color': input,
-			'background-image': 'none'
+			$('body').css({
+				'background-color': input,
+				'background-image': 'none'
+			});
 		});
-	});
+	}
 });
