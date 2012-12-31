@@ -1,0 +1,291 @@
+/* CSS Reset */
+html, body, ul, ol, li, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+/* Global Styles */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { 
+	font-size: 62.5%;
+} 
+
+body {
+	font-size: 14px; 
+	font-size: 1.4rem;
+	color:#333;
+	background:#F4F4F4 url(../img/bg.png) 0 0 repeat;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 { 
+	font-size: 24px; 
+	font-size: 2.4rem; 
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* Awful Bar */
+#awful_bar {
+	padding:10px;
+	background:#EEE;
+	background: -moz-linear-gradient(top,  #F5F5F5 0%, #E9E9E9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#E9E9E9));
+	background: -webkit-linear-gradient(top,  #F5F5F5 0%,#E9E9E9 100%);
+	background: -o-linear-gradient(top,  #F5F5F5 0%,#E9E9E9 100%);
+	background: -ms-linear-gradient(top,  #F5F5F5 0%,#E9E9E9 100%);
+	background: linear-gradient(to bottom,  #F5F5F5 0%,#E9E9E9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5F5F5', endColorstr='#E9E9E9',GradientType=0 );
+	-webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.35);
+			box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.35);
+}
+
+#awful_nav {
+	width:800px;
+	margin:0 auto;
+}
+
+#title {
+	float:left;
+	font-size:18px;
+	font-size:1.8rem;
+	line-height:30px;
+}
+
+#title a {
+	color:#333;
+	text-decoration:none;
+}
+
+#title a:hover {
+
+}
+
+#subtitle {
+	float:right;
+	line-height:30px;
+}
+
+/* Awful Project */
+#awful_project {
+	width:500px;
+	margin:0 auto;
+}
+
+#awful_project h1 {
+	margin:50px 0;
+	text-align:center;
+	font-size: 24px; 
+	font-size: 2.4rem;
+}
+
+.all_boxes {
+	padding:20px;
+	margin:0 0 50px;
+}
+
+#box_1 {
+	background: #FEFEFE;
+	background: -moz-linear-gradient(top, #FEFEFE 0%, #F7F8F9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#F7F8F9));
+	background: -webkit-linear-gradient(top, #FEFEFE 0%,#F7F8F9 100%);
+	background: -o-linear-gradient(top, #FEFEFE 0%,#F7F8F9 100%);
+	background: -ms-linear-gradient(top, #FEFEFE 0%,#F7F8F9 100%);
+	background: linear-gradient(top, #FEFEFE 0%,#F7F8F9 100%);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 
+						inset 0 -3px 1px 0 rgba(0, 0, 0, 0.07);
+	   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 
+	   					inset 0 -3px 1px 0 rgba(0, 0, 0, 0.07);
+			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 
+						inset 0 -3px 1px 0 rgba(0, 0, 0, 0.07);
+}
+
+#box_2 {
+	background: #FFF;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+			border-radius: 8px;
+	-webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.30), 
+						0 1px 7px 0 rgba(0, 0, 0, 0.35);
+	   -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.30), 
+						0 1px 7px 0 rgba(0, 0, 0, 0.35);
+			box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.30), 
+						0 1px 7px 0 rgba(0, 0, 0, 0.35);
+}
+
+#box_3 {
+	background:#FAFAFA;
+	border:1px solid #BBB;
+	border-color:#CCC #BBB #BBB #CCC;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+	-webkit-box-shadow: inset 1px 1px 0px 0 rgba(255,255,255,1), 
+						inset -1px -1px 3px 0 rgba(0,0,0,0.15), 
+						2px 2px 3px 0 rgba(0,0,0,0.08);
+	   -moz-box-shadow: inset 1px 1px 0px 0 rgba(255,255,255,1), 
+						inset -1px -1px 3px 0 rgba(0,0,0,0.15), 
+						2px 2px 3px 0 rgba(0,0,0,0.08);
+			box-shadow: inset 1px 1px 0px 0 rgba(255,255,255,1), 
+						inset -1px -1px 3px 0 rgba(0,0,0,0.15), 
+						2px 2px 3px 0 rgba(0,0,0,0.08);
+}
+
+#box_4 {
+	background: rgba(0,0,0,0.07);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.2), 
+						1px 1px 1px 0 rgba(255, 255, 255, 0.4), 
+						inset 0 0 1px 0 rgba(0,0,0,0.35);
+	   -moz-box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.2), 
+						1px 1px 1px 0 rgba(255, 255, 255, 0.4), 
+						inset 0 0 1px 0 rgba(0,0,0,0.35);
+			box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.2), 
+						1px 1px 1px 0 rgba(255, 255, 255, 0.4), 
+						inset 0 0 1px 0 rgba(0,0,0,0.35);
+	text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+#box_5 {
+	background:#FAFAFA;
+	border:1px solid #CCC;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.20),
+						0 0 10px 0 rgba(0, 0, 0, 0.15),
+						inset 1px 1px 0 0 rgba(255, 255, 255, 0.9);
+	   -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.20),
+	   					0 0 10px 0 rgba(0, 0, 0, 0.15),
+						inset 1px 1px 0 0 rgba(255, 255, 255, 0.9);
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.20),
+						0 0 10px 0 rgba(0, 0, 0, 0.15), 
+						inset 1px 1px 0 0 rgba(255, 255, 255, 0.9);
+	text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+#box_6 {
+	background:#FFF;
+	border:1px solid #DDD;
+	-webkit-box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.80),
+						0 0 4px 1px rgba(0, 0, 0, 0.25);
+	   -moz-box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.80),
+	   					0 0 4px 1px rgba(0, 0, 0, 0.25);
+			box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.80),
+						0 0 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+#box_7 {
+	background:#FFF;
+	border:1px solid #D0D0D0;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
+	-webkit-box-shadow: inset 0 -1px 0 0 #FFF,
+						inset 0 -2px 0 0 #D0D0D0,
+						inset 0 -3px 0 0 #FFF,
+						inset 0 -4px 0 0 #D0D0D0;
+	   -moz-box-shadow: inset 0 -1px 0 0 #FFF,
+						inset 0 -2px 0 0 #D0D0D0,
+						inset 0 -3px 0 0 #FFF,
+						inset 0 -4px 0 0 #D0D0D0;
+			box-shadow: inset 0 -1px 0 0 #FFF,
+						inset 0 -2px 0 0 #D0D0D0,
+						inset 0 -3px 0 0 #FFF,
+						inset 0 -4px 0 0 #D0D0D0;
+}
+
+#box_8 {
+	background:#FFF;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 0 3px rgba(255,255,255,0.75),
+						inset 0 0 0 4px rgba(255,255,255,0.75),
+						inset 0 0 1px 5px rgba(0,0,0,0.10),
+						inset 0 0 0 5px #FFF,
+						inset 0 0 6px 5px rgba(0,0,0,0.10),
+						0 0 5px 0 rgba(0,0,0,0.25);
+	   -moz-box-shadow: inset 0 0 0 3px rgba(255,255,255,0.75),
+						inset 0 0 0 4px rgba(255,255,255,0.75),
+						inset 0 0 1px 5px rgba(0,0,0,0.10),
+						inset 0 0 0 5px #FFF,
+						inset 0 0 6px 5px rgba(0,0,0,0.10),
+						0 0 5px 0 rgba(0,0,0,0.25);
+			box-shadow: inset 0 0 0 3px rgba(255,255,255,0.75),
+						inset 0 0 0 4px rgba(255,255,255,0.75),
+						inset 0 0 1px 5px rgba(0,0,0,0.10),
+						inset 0 0 0 5px #FFF,
+						inset 0 0 6px 5px rgba(0,0,0,0.10),
+						0 0 5px 0 rgba(0,0,0,0.25);
+}
+
+#box_9 {
+	background:#FFF;
+	-webkit-box-shadow: inset 0 0 0 5px #FFF,
+						inset 0 0 10px 5px rgba(0,0,0,0.15),
+						0 0 4px 0 rgba(0,0,0,0.2);
+	   -moz-box-shadow: inset 0 0 0 5px #FFF,
+						inset 0 0 10px 5px rgba(0,0,0,0.15),
+						0 0 4px 0 rgba(0,0,0,0.2);
+			box-shadow: inset 0 0 0 5px #FFF,
+						inset 0 0 10px 5px rgba(0,0,0,0.15),
+						0 0 4px 0 rgba(0,0,0,0.2);
+}
+
+#box_10 {
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top,  #f4f4f4 0%, #dddddd 100%, #e5e5e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#dddddd), color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(top,  #f4f4f4 0%,#dddddd 100%,#e5e5e5 100%);
+	background: -o-linear-gradient(top,  #f4f4f4 0%,#dddddd 100%,#e5e5e5 100%);
+	background: -ms-linear-gradient(top,  #f4f4f4 0%,#dddddd 100%,#e5e5e5 100%);
+	background: linear-gradient(to bottom,  #f4f4f4 0%,#dddddd 100%,#e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#e5e5e5',GradientType=0 );
+}
+
+
