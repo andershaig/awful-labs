@@ -8,7 +8,9 @@ $(document).ready( function () {
 	$('#awful_bar').html(awful_bar);
 
 	// Ability to Change Background color
-	var awful_picker = '<div id="awful_picker">Background Color:<input type="text" id="color_selection" /></div>';
+	var awful_picker =  '<div id="awful_tools">';
+		awful_picker += '<div class="awful_tool">Background <input type="text" id="color_selection" placeholder="#F4F4F4" /></div>';
+		awful_picker += '</div>';
 
 	$('body').append(awful_picker);
 

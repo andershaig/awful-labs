@@ -42,7 +42,7 @@ body {
 	font-size: 14px; 
 	font-size: 1.4rem;
 	color:#333;
-	background:#F4F4F4 url(../img/bg.png) 0 0 repeat;
+	background:#F4F4F4;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -111,3 +111,34 @@ h1 {
 	float:right;
 	line-height:30px;
 }
+
+/* Awful Tools */
+#awful_tools {
+	position:fixed;
+	left:10px;
+	top:60px;
+	max-width:350px;
+}
+
+.awful_tool {
+	background:#CCC;
+	padding:10px;
+}
+
+#color_selection {
+	border:none;
+	padding:3px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
