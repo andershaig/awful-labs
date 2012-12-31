@@ -1,3 +1,0 @@
-## About
-
-Awful Labs is in the works. Just my personal playground for CSS & JavaScript experimentation.

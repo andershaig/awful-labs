@@ -1,5 +1,0 @@
-// Start 
-
-//$(document).ready( function(){
-//	
-//});
